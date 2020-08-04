@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		635894D924D9BB7100D7521A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635894D824D9BB7100D7521A /* AppDelegate.swift */; };
+		635894DB24D9BB7100D7521A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635894DA24D9BB7100D7521A /* SceneDelegate.swift */; };
+		635894DD24D9BB7100D7521A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635894DC24D9BB7100D7521A /* ViewController.swift */; };
+		635894E024D9BB7100D7521A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 635894DE24D9BB7100D7521A /* Main.storyboard */; };
+		635894E224D9BB7200D7521A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 635894E124D9BB7200D7521A /* Assets.xcassets */; };
+		635894E524D9BB7200D7521A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 635894E324D9BB7200D7521A /* LaunchScreen.storyboard */; };
+		635894F024D9BB7300D7521A /* sarina_S_lostmyphoneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635894EF24D9BB7300D7521A /* sarina_S_lostmyphoneTests.swift */; };
+		635894FB24D9BB7300D7521A /* sarina_S_lostmyphoneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635894FA24D9BB7300D7521A /* sarina_S_lostmyphoneUITests.swift */; };
+		6358950924D9BCB800D7521A /* UNADJUSTEDNONRAW_mini_16.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6358950824D9BCB700D7521A /* UNADJUSTEDNONRAW_mini_16.jpg */; };
+		6358950B24D9BCBC00D7521A /* UNADJUSTEDNONRAW_mini_15.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6358950A24D9BCBC00D7521A /* UNADJUSTEDNONRAW_mini_15.jpg */; };
+		6358950D24D9BCC200D7521A /* UNADJUSTEDNONRAW_mini_17.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6358950C24D9BCC200D7521A /* UNADJUSTEDNONRAW_mini_17.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		635894EC24D9BB7300D7521A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 635894CD24D9BB7100D7521A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 635894D424D9BB7100D7521A;
+			remoteInfo = sarina_S_lostmyphone;
+		};
+		635894F724D9BB7300D7521A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 635894CD24D9BB7100D7521A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 635894D424D9BB7100D7521A;
+			remoteInfo = sarina_S_lostmyphone;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		635894D524D9BB7100D7521A /* sarina_S_lostmyphone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sarina_S_lostmyphone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		635894D824D9BB7100D7521A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		635894DA24D9BB7100D7521A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		635894DC24D9BB7100D7521A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		635894DF24D9BB7100D7521A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		635894E124D9BB7200D7521A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		635894E424D9BB7200D7521A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		635894E624D9BB7200D7521A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		635894EB24D9BB7300D7521A /* sarina_S_lostmyphoneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sarina_S_lostmyphoneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		635894EF24D9BB7300D7521A /* sarina_S_lostmyphoneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sarina_S_lostmyphoneTests.swift; sourceTree = "<group>"; };
+		635894F124D9BB7300D7521A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		635894F624D9BB7300D7521A /* sarina_S_lostmyphoneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sarina_S_lostmyphoneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		635894FA24D9BB7300D7521A /* sarina_S_lostmyphoneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sarina_S_lostmyphoneUITests.swift; sourceTree = "<group>"; };
+		635894FC24D9BB7300D7521A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6358950824D9BCB700D7521A /* UNADJUSTEDNONRAW_mini_16.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = UNADJUSTEDNONRAW_mini_16.jpg; sourceTree = "<group>"; };
+		6358950A24D9BCBC00D7521A /* UNADJUSTEDNONRAW_mini_15.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = UNADJUSTEDNONRAW_mini_15.jpg; sourceTree = "<group>"; };
+		6358950C24D9BCC200D7521A /* UNADJUSTEDNONRAW_mini_17.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = UNADJUSTEDNONRAW_mini_17.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		635894D224D9BB7100D7521A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		635894E824D9BB7300D7521A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		635894F324D9BB7300D7521A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		635894CC24D9BB7100D7521A = {
+			isa = PBXGroup;
+			children = (
+				635894D724D9BB7100D7521A /* sarina_S_lostmyphone */,
+				635894EE24D9BB7300D7521A /* sarina_S_lostmyphoneTests */,
+				635894F924D9BB7300D7521A /* sarina_S_lostmyphoneUITests */,
+				635894D624D9BB7100D7521A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		635894D624D9BB7100D7521A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				635894D524D9BB7100D7521A /* sarina_S_lostmyphone.app */,
+				635894EB24D9BB7300D7521A /* sarina_S_lostmyphoneTests.xctest */,
+				635894F624D9BB7300D7521A /* sarina_S_lostmyphoneUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		635894D724D9BB7100D7521A /* sarina_S_lostmyphone */ = {
+			isa = PBXGroup;
+			children = (
+				635894D824D9BB7100D7521A /* AppDelegate.swift */,
+				635894DA24D9BB7100D7521A /* SceneDelegate.swift */,
+				635894DC24D9BB7100D7521A /* ViewController.swift */,
+				6358950C24D9BCC200D7521A /* UNADJUSTEDNONRAW_mini_17.jpg */,
+				6358950A24D9BCBC00D7521A /* UNADJUSTEDNONRAW_mini_15.jpg */,
+				6358950824D9BCB700D7521A /* UNADJUSTEDNONRAW_mini_16.jpg */,
+				635894DE24D9BB7100D7521A /* Main.storyboard */,
+				635894E124D9BB7200D7521A /* Assets.xcassets */,
+				635894E324D9BB7200D7521A /* LaunchScreen.storyboard */,
+				635894E624D9BB7200D7521A /* Info.plist */,
+			);
+			path = sarina_S_lostmyphone;
+			sourceTree = "<group>";
+		};
+		635894EE24D9BB7300D7521A /* sarina_S_lostmyphoneTests */ = {
+			isa = PBXGroup;
+			children = (
+				635894EF24D9BB7300D7521A /* sarina_S_lostmyphoneTests.swift */,
+				635894F124D9BB7300D7521A /* Info.plist */,
+			);
+			path = sarina_S_lostmyphoneTests;
+			sourceTree = "<group>";
+		};
+		635894F924D9BB7300D7521A /* sarina_S_lostmyphoneUITests */ = {
+			isa = PBXGroup;
+			children = (
+				635894FA24D9BB7300D7521A /* sarina_S_lostmyphoneUITests.swift */,
+				635894FC24D9BB7300D7521A /* Info.plist */,
+			);
+			path = sarina_S_lostmyphoneUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		635894D424D9BB7100D7521A /* sarina_S_lostmyphone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 635894FF24D9BB7300D7521A /* Build configuration list for PBXNativeTarget "sarina_S_lostmyphone" */;
+			buildPhases = (
+				635894D124D9BB7100D7521A /* Sources */,
+				635894D224D9BB7100D7521A /* Frameworks */,
+				635894D324D9BB7100D7521A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = sarina_S_lostmyphone;
+			productName = sarina_S_lostmyphone;
+			productReference = 635894D524D9BB7100D7521A /* sarina_S_lostmyphone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		635894EA24D9BB7300D7521A /* sarina_S_lostmyphoneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6358950224D9BB7300D7521A /* Build configuration list for PBXNativeTarget "sarina_S_lostmyphoneTests" */;
+			buildPhases = (
+				635894E724D9BB7300D7521A /* Sources */,
+				635894E824D9BB7300D7521A /* Frameworks */,
+				635894E924D9BB7300D7521A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				635894ED24D9BB7300D7521A /* PBXTargetDependency */,
+			);
+			name = sarina_S_lostmyphoneTests;
+			productName = sarina_S_lostmyphoneTests;
+			productReference = 635894EB24D9BB7300D7521A /* sarina_S_lostmyphoneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		635894F524D9BB7300D7521A /* sarina_S_lostmyphoneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6358950524D9BB7300D7521A /* Build configuration list for PBXNativeTarget "sarina_S_lostmyphoneUITests" */;
+			buildPhases = (
+				635894F224D9BB7300D7521A /* Sources */,
+				635894F324D9BB7300D7521A /* Frameworks */,
+				635894F424D9BB7300D7521A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				635894F824D9BB7300D7521A /* PBXTargetDependency */,
+			);
+			name = sarina_S_lostmyphoneUITests;
+			productName = sarina_S_lostmyphoneUITests;
+			productReference = 635894F624D9BB7300D7521A /* sarina_S_lostmyphoneUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		635894CD24D9BB7100D7521A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Sarina Shepard";
+				TargetAttributes = {
+					635894D424D9BB7100D7521A = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					635894EA24D9BB7300D7521A = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 635894D424D9BB7100D7521A;
+					};
+					635894F524D9BB7300D7521A = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 635894D424D9BB7100D7521A;
+					};
+				};
+			};
+			buildConfigurationList = 635894D024D9BB7100D7521A /* Build configuration list for PBXProject "sarina_S_lostmyphone" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 635894CC24D9BB7100D7521A;
+			productRefGroup = 635894D624D9BB7100D7521A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				635894D424D9BB7100D7521A /* sarina_S_lostmyphone */,
+				635894EA24D9BB7300D7521A /* sarina_S_lostmyphoneTests */,
+				635894F524D9BB7300D7521A /* sarina_S_lostmyphoneUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		635894D324D9BB7100D7521A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				635894E524D9BB7200D7521A /* LaunchScreen.storyboard in Resources */,
+				6358950924D9BCB800D7521A /* UNADJUSTEDNONRAW_mini_16.jpg in Resources */,
+				6358950D24D9BCC200D7521A /* UNADJUSTEDNONRAW_mini_17.jpg in Resources */,
+				6358950B24D9BCBC00D7521A /* UNADJUSTEDNONRAW_mini_15.jpg in Resources */,
+				635894E224D9BB7200D7521A /* Assets.xcassets in Resources */,
+				635894E024D9BB7100D7521A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		635894E924D9BB7300D7521A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		635894F424D9BB7300D7521A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		635894D124D9BB7100D7521A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				635894DD24D9BB7100D7521A /* ViewController.swift in Sources */,
+				635894D924D9BB7100D7521A /* AppDelegate.swift in Sources */,
+				635894DB24D9BB7100D7521A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		635894E724D9BB7300D7521A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				635894F024D9BB7300D7521A /* sarina_S_lostmyphoneTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		635894F224D9BB7300D7521A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				635894FB24D9BB7300D7521A /* sarina_S_lostmyphoneUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		635894ED24D9BB7300D7521A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 635894D424D9BB7100D7521A /* sarina_S_lostmyphone */;
+			targetProxy = 635894EC24D9BB7300D7521A /* PBXContainerItemProxy */;
+		};
+		635894F824D9BB7300D7521A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 635894D424D9BB7100D7521A /* sarina_S_lostmyphone */;
+			targetProxy = 635894F724D9BB7300D7521A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		635894DE24D9BB7100D7521A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				635894DF24D9BB7100D7521A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		635894E324D9BB7200D7521A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				635894E424D9BB7200D7521A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		635894FD24D9BB7300D7521A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		635894FE24D9BB7300D7521A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6358950024D9BB7300D7521A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = sarina_S_lostmyphone/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "storyboard.sarina-S-lostmyphone";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6358950124D9BB7300D7521A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = sarina_S_lostmyphone/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "storyboard.sarina-S-lostmyphone";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6358950324D9BB7300D7521A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = sarina_S_lostmyphoneTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "storyboard.sarina-S-lostmyphoneTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sarina_S_lostmyphone.app/sarina_S_lostmyphone";
+			};
+			name = Debug;
+		};
+		6358950424D9BB7300D7521A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = sarina_S_lostmyphoneTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "storyboard.sarina-S-lostmyphoneTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sarina_S_lostmyphone.app/sarina_S_lostmyphone";
+			};
+			name = Release;
+		};
+		6358950624D9BB7300D7521A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = sarina_S_lostmyphoneUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "storyboard.sarina-S-lostmyphoneUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = sarina_S_lostmyphone;
+			};
+			name = Debug;
+		};
+		6358950724D9BB7300D7521A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = sarina_S_lostmyphoneUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "storyboard.sarina-S-lostmyphoneUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = sarina_S_lostmyphone;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		635894D024D9BB7100D7521A /* Build configuration list for PBXProject "sarina_S_lostmyphone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				635894FD24D9BB7300D7521A /* Debug */,
+				635894FE24D9BB7300D7521A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		635894FF24D9BB7300D7521A /* Build configuration list for PBXNativeTarget "sarina_S_lostmyphone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6358950024D9BB7300D7521A /* Debug */,
+				6358950124D9BB7300D7521A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6358950224D9BB7300D7521A /* Build configuration list for PBXNativeTarget "sarina_S_lostmyphoneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6358950324D9BB7300D7521A /* Debug */,
+				6358950424D9BB7300D7521A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6358950524D9BB7300D7521A /* Build configuration list for PBXNativeTarget "sarina_S_lostmyphoneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6358950624D9BB7300D7521A /* Debug */,
+				6358950724D9BB7300D7521A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 635894CD24D9BB7100D7521A /* Project object */;
+}
